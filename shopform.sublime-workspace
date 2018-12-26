@@ -1,0 +1,1181 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"form-cke",
+				"form-check-label \tBootstrap 4 Class"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"co",
+				"col-2 \tBootstrap 4 Class"
+			],
+			[
+				"col",
+				"col-4 \tBootstrap 4 Class"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ds",
+				"d-sm-inline \tBootstrap 4 Class"
+			],
+			[
+				"na",
+				"navbar-text \tBootstrap 4 Class"
+			],
+			[
+				"alimi",
+				"align-items-md-center \tBootstrap 4 Class"
+			],
+			[
+				"alrigh",
+				"float-xl-right \tBootstrap 4 Class"
+			],
+			[
+				"fl",
+				"float-left \tBootstrap 4 Class"
+			],
+			[
+				"ali",
+				"align-content-lg-end \tBootstrap 4 Class"
+			],
+			[
+				"ab",
+				"align-self-baseline \tBootstrap 4 Class"
+			],
+			[
+				"product-",
+				"product-SinFu.jpg\tw:530 h:530"
+			],
+			[
+				"my-m",
+				"my-md-3 \tBootstrap 4 Class"
+			],
+			[
+				"d-md",
+				"d-md-inline-block \tBootstrap 4 Class"
+			],
+			[
+				"d",
+				"d-md-flex \tBootstrap 4 Class"
+			],
+			[
+				"a",
+				"align-middle \tBootstrap 4 Class"
+			],
+			[
+				"mb",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"mr-md",
+				"mr-md-1 \tBootstrap 4 Class"
+			],
+			[
+				"tablec",
+				"table-cell\tdisplay"
+			],
+			[
+				"in",
+				"inline-table\tdisplay"
+			],
+			[
+				"d-md-in",
+				"d-md-inline-flex \tBootstrap 4 Class"
+			],
+			[
+				"d-m",
+				"d-md-inline \tBootstrap 4 Class"
+			],
+			[
+				"fa",
+				"product-FangLin.jpg\tw:960 h:629"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"lin",
+				"custom-line"
+			],
+			[
+				"whi",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"bold",
+				"font-weight-bold \tBootstrap 4 Class"
+			],
+			[
+				"texw",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"text-dar",
+				"text-gray-dark \tBootstrap 4 Class"
+			],
+			[
+				"gra",
+				"text-gray-dark \tBootstrap 4 Class"
+			],
+			[
+				"mb-md",
+				"mb-md-3 \tBootstrap 4 Class"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"d-i",
+				"d-inline-block \tBootstrap 4 Class"
+			],
+			[
+				"mx",
+				"mx-auto \tBootstrap 4 Class"
+			],
+			[
+				"cen",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"d-",
+				"d-lg-inline-block \tBootstrap 4 Class"
+			],
+			[
+				"mr-md-",
+				"mr-md-3 \tBootstrap 4 Class"
+			],
+			[
+				"py",
+				"py-1 \tBootstrap 4 Class"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"h",
+				"h5 \tBootstrap 3 Class"
+			],
+			[
+				"bg",
+				"bg-info \tBootstrap 4 Class"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"pb",
+				"pb-5 \tBootstrap 4 Class"
+			],
+			[
+				"v",
+				"vertical-align\tproperty"
+			],
+			[
+				"center",
+				"text-sm-center \tBootstrap 4 Class"
+			],
+			[
+				"alice",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"ce",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"tew",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"my",
+				"my-md-5 \tBootstrap 4 Class"
+			],
+			[
+				"alig",
+				"align-content-md-end \tBootstrap 4 Class"
+			],
+			[
+				"align",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"te",
+				"text-left \tBootstrap 4 Class"
+			],
+			[
+				"text-",
+				"text-gray-dark \tBootstrap 4 Class"
+			],
+			[
+				"prima",
+				"text-primary \tBootstrap 3 Class"
+			],
+			[
+				"w",
+				"w-25 \tBootstrap 4 Class"
+			],
+			[
+				"d-f",
+				"d-lg-flex \tBootstrap 4 Class"
+			],
+			[
+				"m-",
+				"m-0 \tBootstrap 4 Class"
+			],
+			[
+				"right",
+				"text-right \tBootstrap 3 Class"
+			],
+			[
+				"end",
+				"align-content-sm-end \tBootstrap 4 Class"
+			],
+			[
+				"alis",
+				"align-self-end \tBootstrap 4 Class"
+			],
+			[
+				"tex",
+				"text-right \tBootstrap 4 Class"
+			],
+			[
+				"pl",
+				"pl-1 \tBootstrap 4 Class"
+			],
+			[
+				"inlin",
+				"d-inline \tBootstrap 4 Class"
+			],
+			[
+				"bg-n",
+				"bg-inverse \tBootstrap 4 Class"
+			],
+			[
+				"d-li",
+				"d-inline \tBootstrap 4 Class"
+			],
+			[
+				"star",
+				"align-self-start \tBootstrap 4 Class"
+			],
+			[
+				"start",
+				"align-items-start \tBootstrap 4 Class"
+			],
+			[
+				"left",
+				"float-left \tBootstrap 4 Class"
+			],
+			[
+				"btn",
+				"btn-sm \tBootstrap 3 Class"
+			],
+			[
+				"aimi",
+				"align-middle \tBootstrap 4 Class"
+			],
+			[
+				"jus",
+				"justify-content-lg-start \tBootstrap 4 Class"
+			],
+			[
+				"ju",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"din",
+				"d-inline-block \tBootstrap 4 Class"
+			],
+			[
+				"px",
+				"px-3 \tBootstrap 4 Class"
+			],
+			[
+				"mr",
+				"mr-3 \tBootstrap 4 Class"
+			],
+			[
+				"mr-",
+				"mr-3 \tBootstrap 4 Class"
+			],
+			[
+				"pb-s",
+				"pb-sm-5 \tBootstrap 4 Class"
+			],
+			[
+				"align-c",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"mb-sm",
+				"mb-sm-5 \tBootstrap 4 Class"
+			],
+			[
+				"textc",
+				"text-sm-center \tBootstrap 4 Class"
+			],
+			[
+				"bg-p",
+				"bg-primary \tBootstrap 4 Class"
+			],
+			[
+				"self",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"100",
+				"mh-100 \tBootstrap 4 Class"
+			],
+			[
+				"dii",
+				"d-inline-block \tBootstrap 4 Class"
+			],
+			[
+				"al",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"pu",
+				"pull-1 \tBootstrap 4 Class"
+			],
+			[
+				"c",
+				"container \tBootstrap 3 Class"
+			],
+			[
+				"col-8",
+				"col-md-8 \tBootstrap 3 Class"
+			],
+			[
+				"alc",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"col-",
+				"col-8 \tBootstrap 4 Class"
+			],
+			[
+				"disp",
+				"display-4 \tBootstrap 4 Class"
+			],
+			[
+				"block",
+				"d-block \tBootstrap 4 Class"
+			],
+			[
+				"h-1",
+				"mh-100 \tBootstrap 4 Class"
+			],
+			[
+				"btn-o",
+				"btn-outline-secondary \tBootstrap 4 Class"
+			],
+			[
+				"btn-",
+				"btn-primary \tBootstrap 3 Class"
+			],
+			[
+				"mt-md-",
+				"mt-md-4 \tBootstrap 4 Class"
+			],
+			[
+				"bg-",
+				"bg-warning \tBootstrap 4 Class"
+			],
+			[
+				"display",
+				"display-3 \tBootstrap 4 Class"
+			],
+			[
+				"dis",
+				"display-3 \tBootstrap 4 Class"
+			],
+			[
+				"w-",
+				"w-25 \tBootstrap 4 Class"
+			],
+			[
+				"dg",
+				"dg_covery.png\tw:198 h:79"
+			],
+			[
+				"m",
+				"m-0 \tBootstrap 4 Class"
+			],
+			[
+				"pr",
+				"pr-2 \tBootstrap 4 Class"
+			],
+			[
+				"text-c",
+				"text-center \tBootstrap 3 Class"
+			],
+			[
+				"h-",
+				"h-75 \tBootstrap 4 Class"
+			],
+			[
+				"sel",
+				"align-self-lg-center \tBootstrap 4 Class"
+			],
+			[
+				"con",
+				"container-fluid \tBootstrap 4 Class"
+			],
+			[
+				"BG",
+				"bg-warning \tBootstrap 3 Class"
+			],
+			[
+				"nav",
+				"navbar-static-top \tBootstrap 3 Class"
+			],
+			[
+				"als",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"ca",
+				"card \tBootstrap 4 Class"
+			],
+			[
+				"mt-md",
+				"mt-md-3 \tBootstrap 4 Class"
+			],
+			[
+				"ml",
+				"ml-1 \tBootstrap 4 Class"
+			],
+			[
+				"se",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"btn-li",
+				"btn-outline-info \tBootstrap 4 Class"
+			],
+			[
+				"j",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"text-cen",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"ma",
+				"m-auto \tBootstrap 4 Class"
+			],
+			[
+				"lis",
+				"list-group-item \tBootstrap 4 Class"
+			],
+			[
+				"prim",
+				"btn-primary \tBootstrap 3 Class"
+			],
+			[
+				"pt-md-",
+				"pt-md-5 \tBootstrap 4 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				" pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pro",
+				"Project Manager"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"unpa",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project Manager: Add New Project"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/b-nsysu/NSYSU 雲端硬碟/Shopform"
+	],
+	"file_history":
+	[
+		"/Users/b-nsysu/NSYSU 雲端硬碟/ec_project/web/index.html",
+		"/Users/b-nsysu/NSYSU 雲端硬碟/ec_project/web/detail.html",
+		"/Users/b-nsysu/NSYSU 雲端硬碟/ec_project/web/list.html",
+		"/Users/b-nsysu/NSYSU 雲端硬碟/ec_project/web/src/App.vue",
+		"/Users/b/Google 雲端硬碟/6.MVP/Testing/taie/css/custom.css",
+		"/Users/b/Google 雲端硬碟/6.MVP/Testing/taie/index_preview.html",
+		"/Users/b-nsysu/NSYSU 雲端硬碟/ec_project/web/src/assets/bootstrap/_custom.scss",
+		"/Users/b/AppWorks/PULO/Website/node_modules/eslint/lib/rules/no-ex-assign.js",
+		"/Users/b/AppWorks/PULO/Android/HOME/app/build/intermediates/res/merged/debug/values/values.xml",
+		"/Users/b/Google 雲端硬碟/6.MVP/Testing/taie/index.html",
+		"/Users/b/Desktop/my-icons-collection/svg/002-gardener.svg",
+		"/Users/b/Google 雲端硬碟/6.MVP/Testing/taie/index (1).html",
+		"/Users/b/Google 雲端硬碟/taie/index.html",
+		"/Users/b/Google 雲端硬碟/bootstrap-pages/css/custom.css",
+		"/Users/b/Google 雲端硬碟/bootstrap-pages/index.html",
+		"/Users/b/Google 雲端硬碟/bootstrap-pages/css/business-frontpage.css",
+		"/Users/b/Downloads/startbootstrap-business-frontpage-gh-pages/index.html",
+		"/private/var/folders/mp/f16_dnl912d6l0n29_hwsjl00000gn/T/com.soulmen.ulysses3/bca1648c26014811af49d0945dba16ad/e787b20a687d4141ae3d25f3efac4abd/HTML/GitHub (Bing).css",
+		"/private/var/folders/mp/f16_dnl912d6l0n29_hwsjl00000gn/T/com.soulmen.ulysses3/5ca03ade833d4c4f92fc8de862adbc62/e787b20a687d4141ae3d25f3efac4abd/HTML/GitHub (Bing).css",
+		"/Users/b/Desktop/b8025ba3f4bc98e5b11a5b2481831c5f_export.xml",
+		"/private/var/folders/mp/f16_dnl912d6l0n29_hwsjl00000gn/T/com.soulmen.ulysses3/1c45eb01d6d1412b92c78f10a8d6dfae/e787b20a687d4141ae3d25f3efac4abd/HTML/GitHub (Bing).css",
+		"/private/var/folders/mp/f16_dnl912d6l0n29_hwsjl00000gn/T/com.soulmen.ulysses3/184f042f7d4543369ac862e37da83334/e787b20a687d4141ae3d25f3efac4abd/HTML/GitHub (Bing).css",
+		"/private/var/folders/mp/f16_dnl912d6l0n29_hwsjl00000gn/T/com.soulmen.ulysses3/233ecdd3366447639e6f891cf5ae383c/e787b20a687d4141ae3d25f3efac4abd/HTML/GitHub (Bing).css",
+		"/Users/b/AppWorks/PULO/Website/src/components/Footer.vue",
+		"/Users/b/AppWorks/PULO/Website/src/assets/bootstrap/_style.scss",
+		"/Users/b/AppWorks/PULO/Website/src/components/Profile/ProInfo.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Case/ProjectList.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/ProList/ProList.vue",
+		"/Users/b/AppWorks/PULO/Website/index.html",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/BecomePro.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Download/Download.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Case/ProjectDetail/ProjectDetail.vue",
+		"/private/var/folders/mp/f16_dnl912d6l0n29_hwsjl00000gn/T/com.soulmen.ulysses3/95ddf50bb04448d9be9946301a081237/e787b20a687d4141ae3d25f3efac4abd/HTML/GitHub (Bing).css",
+		"/Users/b/AppWorks/PULO/Website/src/assets/loadMoreCss.css",
+		"/Users/b/AppWorks/PULO/Website/src/components/My/ProjectDetail/MatchPros.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Navigation.vue",
+		"/Users/b/AppWorks/PULO/Website/node_modules/core-js/modules/_object-gopd.js",
+		"/Users/b/AppWorks/PULO/Website/src/components/Error/Error404.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/TermsService.vue",
+		"/Users/b/AppWorks/PULO/Website/node_modules/babel-runtime/core-js/reflect/has-own-metadata.js",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/ProFAQ.vue",
+		"/Users/b/AppWorks/PULO/Website/src/assets/bootstrap/_custom.scss",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/C3Q2.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/AboutPULO.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/PCategory1.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/PCategory2.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/PCategory3.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/PCategory4.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/PCategory5.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/PCategory6.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/PuloGuarantee.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/Category2.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/Category1.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/Category3.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/HomeFAQNavigation.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/HomeFAQ.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/PrivacyPolicy.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/PuloRules.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/MediaReports.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/common/ErrorMsg.vue",
+		"/Users/b/AppWorks/PULO/Website/src/router/index.js",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/PuloPolicy.vue",
+		"/Users/b/AppWorks/PULO/Website/node_modules/tether/examples/common/css/style.css",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/PuloGuarantee.vue",
+		"/Users/b/AppWorks/PULO/Website/src/assets/bootstrap/_buttons.scss",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/C2Q13.vue",
+		"/Users/b/AppWorks/PULO/Website/src/assets/bootstrap/_alert.scss",
+		"/Users/b/AppWorks/PULO/Website/src/components/My/ProjectDetail/ContactedPros.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/ProjectFile/ProjectDetail.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Modal/Create/ProjectAddress.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/My/ProjectDetail/ProjectContent.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Modal/Create/Confirm.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/My/MyList.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Modal/Create/NeederCategories.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Pro/FAQ/P6Q3.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/Home/FAQ/C2Q3.vue",
+		"/Users/b/AppWorks/PULO/Website/src/components/About/Contact.vue",
+		"/Users/b/AppWorks/PULO/Website/src/assets/bootstrap/_type.scss",
+		"/Users/b/AppWorks/PULO/Website/src/assets/bootstrap/_reboot.scss",
+		"/Users/b/AppWorks/PULO/Website/node_modules/webpack-bundle-analyzer/public/viewer.js.map",
+		"/Users/b/AppWorks/PULO/Website/node_modules/webpack/node_modules/ajv/dist/ajv.min.js.map",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue-template-compiler/build.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue-template-compiler/browser.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue-spinner/example/app.css",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue-spinner/index.html",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/src/platforms/web/util/element.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/src/platforms/web/compiler/util.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.runtime.min.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.runtime.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.runtime.esm.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.runtime.common.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.min.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.esm.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/dist/vue.common.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/README.md",
+		"/Users/b/AppWorks/PULO/Website/node_modules/vue/package.json",
+		"/Users/b/AppWorks/PULO/Website/node_modules/url-loader/node_modules/mime/types.json",
+		"/Users/b/AppWorks/PULO/Website/node_modules/uglifyjs-webpack-plugin/node_modules/uglify-js/tools/domprops.json",
+		"/Users/b/AppWorks/PULO/Website/node_modules/uglify-js/tools/domprops.json",
+		"/Users/b/AppWorks/PULO/Website/node_modules/tweetnacl/nacl-fast.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/toposort/graph.svg",
+		"/Users/b/AppWorks/PULO/Website/node_modules/tether/examples/scroll/index.html",
+		"/Users/b/AppWorks/PULO/Website/node_modules/table/README.md",
+		"/Users/b/AppWorks/PULO/Website/node_modules/schema-utils/node_modules/ajv/dist/ajv.min.js.map",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/test_rsa_privkey.pem",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/rsa.pass.pub",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/rsa.pass.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/rsa.2028.pub",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/rsa.2028.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/rsa.1024.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/pass.1024.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/public-encrypt/test/1024.pub",
+		"/Users/b/AppWorks/PULO/Website/node_modules/prettier/parser-parse5.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/postcss-merge-idents/package.json",
+		"/Users/b/AppWorks/PULO/Website/node_modules/parse-asn1/test/rsa.2028.pub",
+		"/Users/b/AppWorks/PULO/Website/node_modules/parse-asn1/test/rsa.2028.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/parse-asn1/test/rsa.1024.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/parse-asn1/test/pass.rsa.2028.pub",
+		"/Users/b/AppWorks/PULO/Website/node_modules/parse-asn1/test/pass.rsa.2028.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/parse-asn1/test/pass.dsa.1024.priv",
+		"/Users/b/AppWorks/PULO/Website/node_modules/jquery/dist/jquery.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/jquery/dist/jquery.min.map",
+		"/Users/b/AppWorks/PULO/Website/node_modules/jquery/dist/jquery.slim.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/jquery/external/sizzle/dist/sizzle.js",
+		"/Users/b/AppWorks/PULO/Website/node_modules/jquery/external/sizzle/dist/sizzle.min.map",
+		"/Users/b/AppWorks/PULO/Website/node_modules/mime/types.json"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"colorcode": true,
+							"default_dir": "/Users/b-nsysu/NSYSU 雲端硬碟/ec_project/web",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "shopform.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_style",
+				"src/assets/bootstrap/_style.scss"
+			],
+			[
+				"_s",
+				"src/assets/bootstrap/_style.scss"
+			],
+			[
+				"home",
+				"src/components/Home.vue"
+			],
+			[
+				"_home",
+				"node_modules/babel-runtime/core-js/reflect/has-own-metadata.js"
+			],
+			[
+				"_sty",
+				"src/assets/bootstrap/_style.scss"
+			],
+			[
+				"navi",
+				"src/components/Navigation.vue"
+			],
+			[
+				"_cu",
+				"src/assets/bootstrap/_custom.scss"
+			],
+			[
+				"_cus",
+				"src/assets/bootstrap/_custom.scss"
+			],
+			[
+				"404",
+				"src/components/Error/Error404.vue"
+			],
+			[
+				"down",
+				"src/components/Download/Download.vue"
+			],
+			[
+				"style",
+				"node_modules/tether/examples/common/css/style.css"
+			],
+			[
+				"media",
+				"src/components/About/MediaReports.vue"
+			],
+			[
+				"nav",
+				"src/components/Navigation.vue"
+			],
+			[
+				"med",
+				"src/components/About/MediaReports.vue"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"becom",
+				"src/components/Pro/BecomePro.vue"
+			],
+			[
+				"dow",
+				"src/components/Download/Download.vue"
+			],
+			[
+				"mediare",
+				"src/components/About/MediaReports.vue"
+			],
+			[
+				"prode",
+				"src/components/ProjectFile/ProjectDetail.vue"
+			],
+			[
+				"address",
+				"src/components/Modal/Create/ProjectAddress.vue"
+			],
+			[
+				"c2q3",
+				"src/components/Home/FAQ/C2Q3.vue"
+			],
+			[
+				"style.c",
+				"node_modules/tether/examples/common/css/style.css"
+			],
+			[
+				"pro",
+				"src/components/Profile/ProInfo.vue"
+			],
+			[
+				"footer",
+				"src/components/Footer.vue"
+			],
+			[
+				"revue",
+				"src/components/Modal/Login/RegModal.vue"
+			],
+			[
+				"login",
+				"src/components/Modal/Login/Login.vue"
+			],
+			[
+				"faq",
+				"src/components/Home/HomeFAQ.vue"
+			],
+			[
+				"proin",
+				"src/components/Profile/ProInfo.vue"
+			],
+			[
+				"project",
+				"src/components/Case/ProjectList.vue"
+			],
+			[
+				"prolist",
+				"src/components/ProList/ProList.vue"
+			],
+			[
+				"nav.",
+				"src/components/Navigation.vue"
+			],
+			[
+				"foo",
+				"src/components/Footer.vue"
+			],
+			[
+				"foot",
+				"src/components/Footer.vue"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Google 雲端硬碟/6.MVP/Testing/taie/taie.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 351.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
