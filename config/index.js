@@ -35,7 +35,7 @@ module.exports = {
         '/data': {                  
               // 自訂 local 端的位置
               // target: 'http://218.161.115.117:1234/'
-            target: 'http://218.161.115.117:1234/',  // 遠端 URL Domain
+            target: 'http://127.0.0.1:1234/',  // 遠端 URL Domain
             changeOrigin: true,
             pathRewrite: {
             '^/data': ''
