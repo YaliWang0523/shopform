@@ -184,7 +184,7 @@
 		<nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
 			<div class="container-fluid">
 				<!-- Brand -->
-				<a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">待匯款</a>
+				<a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">完成訂單</a>
 				<!-- User -->
 				<ul class="navbar-nav align-items-center d-none d-md-flex">
 					<li class="nav-item dropdown">
@@ -237,7 +237,7 @@
 			</div>
 		</div>
 		<!-- Page content -->
-		<div class="container-fluid mt-7">
+		<div class="container-fluid mt--7">
 			<!-- Card Row1 -->
 			<div class="row">
 				<div class="col">
@@ -248,21 +248,20 @@
 						<!-- Card Body -->
 						<div class="card-body">
 						  <div class="row">
-						    <div class="col-md-6">
+						  	<div class="col-md-3">
+						    	<img class="rounded mx-auto d-block" width="100%" alt="Image placeholder" src="./assets/img/sample.jpg">
+						    </div>
+						    <div class="col-md-9">
 						    	<h2 class="card-title ">潮到出水日本原廠波特包</h2>
 						    	<p>HYBRID 系列採用最新開發的 X-C 1000 布料，此款布料兼具了良好的防水性，本身重量也較一般布料來得輕，布料強度也較為堅韌，使得此款包包完美的結合防水/耐用/輕便三大特性。</p>
-						    </div>
-						    <div class="col-6">
-						    	<img class="rounded mx-auto d-block" width="320" alt="Image placeholder" src="./assets/img/sample.jpg">
 						    </div>
 						  </div>
 						</div>
 						<!-- /Card Body -->
-						<div class="card-footer py-4">
+						<div class="card-footer py-4 text-right">
 							<p>
-								<span>數量：1</span>
-								<span class="mx-5">出貨時間：1個月</span>
-								<span>購買人：蔡依林</span>
+								<span class="mr-5">數量：1</span>
+								<span class="mr-5">購買人：蔡依林</span>
 							</p>
 						</div>
 					</div>
@@ -270,7 +269,7 @@
 			</div>
 			<!-- /Card Row1 -->
 			<!-- Card Row2 -->
-			<div class="row mt-3">
+			<div class="row my-3">
 				<div class="col">
 					<div class="card shadow">
 						<div class="card-header border-0">
@@ -281,32 +280,48 @@
 								<table class="table align-items-center table-flush">
 									<thead class="thead-light">
 										<tr>
-											<th class="w-25">品項</th>
-											<th>金額</th>
+											<th scope="col" class="w-25">品項</th>
+											<th scope="col">金額</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<th class="w-25">
-												訂金
+											<th scope="row">
+												總價
 											</th>
 											<td>
-												1000
+												10000
 											</td>
 										</tr>
 										<tr>
-											<th>
+											<th scope="row">
+												訂金
+											</th>
+											<td>
+												-1000
+											</td>
+										</tr>
+										<tr>
+											<th scope="row">
 												尾款
 											</th>
 											<td>
 												9000
 											</td>
 										</tr>
+										<tr>
+											<th scope="row">
+												運費
+											</th>
+											<td>
+												60
+											</td>
+										</tr>
 									</tbody>
 									<tfoot>
 										<tr>
-											<th>總價</th>
-											<th>100000</th>
+											<th scope="col">付款金額</th>
+											<th scope="col">10060</th>
 										</tr>
 									</tfoot>
 								</table>
@@ -318,34 +333,26 @@
 			</div>
 			<!-- /Card Row2 -->
 			<!-- Card Row3 -->
-			<div class="row mt-3">
+			<div class="row mb-3">
 				<div class="col">
 					<div class="card shadow">
 						<div class="card-header border-0">
-							<h3 class="mb-0">付款方式</h3>
+							<h3 class="mb-0">物流資訊</h3>
 						</div>
 						<div class="card-body">
-							<p>銀行轉帳、三小都支援</p>
+							<table class="table align-items-center table-flush">
+								<tr>
+							    <td class="w-25"><strong class="mr-2">物流公司</strong>中華郵政</td>
+							    <td><strong class="mr-2">物流單號</strong>59978</td>
+							  </tr>
+							</table>
 						</div>
 					</div>
 					<!-- /card -->
 				</div>
 				<!-- /col -->
-				<div class="col">
-					<div class="card shadow">
-						<div class="card-header border-0">
-							<h3 class="mb-0">寄送方式</h3>
-						</div>
-						<div class="card-body">
-							<p>宅配、掛號、三小都支援</p>
-						</div>
-					</div>
-					<!-- /card -->
-				</div>
-				<!-- /col3 -->
-		</div>
-		<!-- /Card Row3 -->
-		<a href="#" class="btn btn-primary btn-lg my-3" role="button" aria-pressed="true">匯款</a>
+			</div>
+			<!-- /Card Row3 -->
 	</div>
 	<!-- Argon Scripts -->
 			<!-- Core -->
