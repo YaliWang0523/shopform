@@ -96,7 +96,7 @@
         <h6 class="navbar-heading text-muted">賣家面板</h6>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_create()">
+            <a class="nav-link" href="../index.html">
               <i class="ni ni-tv-2 text-primary"></i> 建立訂單
             </a>
           </li>
@@ -167,7 +167,7 @@
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
       <div class="container-fluid">
         <!-- Brand -->
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">商品列表</a>
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">建立訂單</a>
         <!-- User -->
         <ul class="navbar-nav align-items-center d-none d-md-flex">
           <li class="nav-item dropdown">
@@ -226,88 +226,156 @@
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <h3 class="mb-0">商品列表</h3>
+              <h3 class="mb-0">商品內容</h3>
             </div>
-            <div class="table-responsive">
-              <table class="table align-items-center table-flush">
-                <thead class="thead-light">
-                  <tr>
-                    <th scope="col">編號</th>
-                    <th scope="col">商品</th>
-                    <th scope="col">狀態</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="(item, index) of this.datas">
-                    <th scope="row">
-                      <div class="media align-items-center">
-                        <div class="media-body">
-                          <span class="mb-0 text-sm">{{item['OrderId']}}</span>
-                        </div>
+            <!-- Card Body -->
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="inputProductName">商品名稱</label>
+                      <input type="text" class="form-control" id="inputProductName" placeholder="商品名稱" v-model="OrderName">
+                    </div>
+                  </div> 
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="inputProductSize">尺寸</label>
+                      <input type="text" class="form-control" id="inputProductSize" placeholder="w30 x h30 x d30" v-model="OrderSize">
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="inputSum">數量</label>
+                      <select class="form-control" id="inputSum" v-model="OrderCount">
+                        <option value="">請選擇</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="textareaProductDetail">商品描述</label>
+                      <textarea v-model="OrderDesc" class="form-control" id="textareaProductDetail" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="inputPhoto">上傳照片</label>
+                      <input type="tel" class="form-control" id="inputPhoto" placeholder="選擇照片">
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <a href="#" class="btn btn-primary btn-lg mt-4" role="button" aria-pressed="true">上傳</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Card Row2 -->
+        <div class="row my-3">
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-header border-0">
+                <h3 class="mb-0">價格設定</h3>
+              </div>
+              <!-- Card Body -->
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="inputPriceSum">總價</label>
+                        <input type="text" class="form-control" id="inputPriceSum" placeholder="總價" v-model="OrderTotal">
                       </div>
-                    </th>
-                    <td>
-                      {{item['OrderName']}}
-                    </td>
-                    <td>
-                      <span class="badge badge-dot mr-4">
-                        <i class="bg-warning"></i> 運送中
-                      </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="inputfristPay">訂金</label>
+                        <select class="form-control" id="inputfristPay" v-model="OrderPercent">
+                          <option value="">請選擇</option>
+                          <option value="101">10%</option>
+                          <option value="102">20%</option>
+                          <option value="103">30%</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="inputfinalPay">尾款</label>
+                        <input type="text" class="form-control" id="inputfinalPay" placeholder="尾款" v-model="OrderBalance">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="inputBuyer">購買人</label>
+                        <input type="text" class="form-control" id="inputBuyer" placeholder="購買人" v-model="BuyerName">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label for="inputShipment">出貨時間</label>
+                        <select class="form-control" id="inputShipment" v-model="ProductTime">
+                          <option value="">請選擇</option>
+                          <option value="104">1個月</option>
+                          <option value="105">2個月</option>
+                          <option value="106">3個月</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- /Card Body -->
             </div>
+          </div>
+        </div>
+        <!-- Card Row2 -->
+            <!-- /Card Body -->
             <div class="card-footer py-4">
-              <nav aria-label="...">
-                <ul class="pagination justify-content-end mb-0">
-                  <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1">
-                      <i class="fas fa-angle-left"></i>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                  </li>
-                  <li class="page-item active">
-                    <a class="page-link" href="#">1</a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">
-                      <i class="fas fa-angle-right"></i>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              <button class="btn btn-primary btn-lg" role="button" aria-pressed="true" v-on:click="saveData()" :disabled="!(OrderName && OrderSize && OrderCount && OrderTotal && OrderPercent && OrderDeposit && OrderBalance && BuyerName && ProductTime)" >送出訂單</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
- </div>
+</div>
 </template>
 <script>
 import {ApiHandle} from '@/Api/ApiHandle.js'
 import {CommonFunction} from '@/common/CommonFunction.js'
 export default {
-  name: 'SellerList',
+  name: 'SellerCreateOrder',
   data () {
     return {
-      statusId: '',
-      datas: []
+      datas: [],
+      OrderName: '',
+      OrderSize: '',
+      OrderCount: '',
+      OrderDesc: '',
+      OrderTotal: '',
+      OrderPercent: '',
+      OrderDeposit: '',
+      OrderBalance: '',
+      BuyerName: '',
+      ProductTime: ''
     }
   },
   methods: {
-    to_seller_create: function () {
-      this.$router.replace({name: 'seller_create_order'})
-    },
     onHandle: function (data) {
       this.datas = data
-      console.log(this.datas)
+      this.$router.replace({name: 'seller_list', params: {info: '115'}})
     },
     onError: function () {
       this.datas = []
@@ -315,15 +383,24 @@ export default {
     onTokenError: function () {
       this.datas = []
     },
-    getData: function () {
+    createData: function () {
       let commonFunction = new CommonFunction()
       let url = commonFunction.GetApiUrl()
       this.loading = true
       var params = new URLSearchParams()
-      params.append('statusId', this.statusId)
+      params.append('OrderName', this.OrderName)
+      params.append('OrderSize', this.OrderSize)
+      params.append('OrderCount', this.OrderCount)
+      params.append('OrderDesc', this.OrderDesc)
+      params.append('OrderTotal', this.OrderTotal)
+      params.append('OrderPercent', this.OrderPercent)
+      params.append('OrderDeposit', this.OrderDeposit)
+      params.append('OrderBalance', this.OrderBalance)
+      params.append('BuyerName', this.BuyerName)
+      params.append('ProductTime', this.ProductTime)
       window.Vue.axios({
         method: 'post',
-        url: url + 'Buyer/GetList',
+        url: url + 'Seller/Create',
         data: params
       })
       .then((response) => {
@@ -338,12 +415,45 @@ export default {
         let commonFunction = new CommonFunction()
         commonFunction.ToError404(this)
       })
+    },
+    saveData: function () {
+      console.log(this.OrderName)
+      console.log(this.OrderSize)
+      console.log(this.OrderCount)
+      console.log(this.OrderDesc)
+      console.log(this.OrderTotal)
+      console.log(this.OrderPercent)
+      console.log(this.OrderDeposit)
+      console.log(this.OrderBalance)
+      console.log(this.BuyerName)
+      console.log(this.ProductTime)
+      this.createData()
+    },
+    changeDeposit: function () {
+      if (this.OrderTotal !== '' && this.OrderPercent !== '') {
+        if (this.OrderPercent === '101') {
+          this.OrderDeposit = this.OrderTotal * 0.1
+          this.OrderBalance = this.OrderTotal * 0.9
+        } else if (this.OrderPercent === '102') {
+          this.OrderDeposit = this.OrderTotal * 0.2
+          this.OrderBalance = this.OrderTotal * 0.8
+        } else {
+          this.OrderDeposit = this.OrderTotal * 0.3
+          this.OrderBalance = this.OrderTotal * 0.7
+        }
+        console.log(this.OrderDeposit)
+      }
     }
   },
   created () {
-    this.statusId = this.$route.params.info
-    this.getData()
-    console.log(this.statusId)
+  },
+  watch: {
+    'OrderTotal' () {
+      this.changeDeposit()
+    },
+    'OrderPercent' () {
+      this.changeDeposit()
+    }
   }
 }
 </script>

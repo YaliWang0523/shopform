@@ -8,6 +8,7 @@ const SellerLogin = () => import('@/components/seller/seller_login')
 const BuyerLogin = () => import('@/components/buyer/buyer_login')
 const BuyerList = () => import('@/components/buyer/buyer_list')
 const SellerList = () => import('@/components/seller/seller_list')
+const SellerCreateOrder = () => import('@/components/seller/seller_create_order')
 const Home = () => import('@/components/Home')
 
 Vue.use(Router)
@@ -21,6 +22,7 @@ const router = new Router({
     {path: '/buyer_login', name: 'buyer_login', component: BuyerLogin},
     {path: '/buyer_list/:info', name: 'buyer_list', component: BuyerList},
     {path: '/seller_list/:info', name: 'seller_list', component: SellerList},
+    {path: '/seller_create_order', name: 'seller_create_order', component: SellerCreateOrder},
     { path: '*', component: Error404 }
   ]}
 )
