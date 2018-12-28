@@ -7,6 +7,7 @@ const Error404 = () => import('@/components/Error/Error404')
 const SellerLogin = () => import('@/components/seller/seller_login')
 const BuyerLogin = () => import('@/components/buyer/buyer_login')
 const BuyerList = () => import('@/components/buyer/buyer_list')
+const FirstPay = () => import('@/components/buyer/first_pay')
 const SellerList = () => import('@/components/seller/seller_list')
 const SellerCreateOrder = () => import('@/components/seller/seller_create_order')
 const Home = () => import('@/components/Home')
@@ -21,6 +22,8 @@ const router = new Router({
     {path: '/seller_login', name: 'seller_login', component: SellerLogin},
     {path: '/buyer_login', name: 'buyer_login', component: BuyerLogin},
     {path: '/buyer_list/:info', name: 'buyer_list', component: BuyerList},
+    {path: '/first_pay/:info', name: 'first_pay', component: FirstPay},
+    {path: '/seller_list/:info', name: 'seller_list', component: SellerList},
     {path: '/seller_list/:info', name: 'seller_list', component: SellerList},
     {path: '/seller_create_order', name: 'seller_create_order', component: SellerCreateOrder},
     { path: '*', component: Error404 }
