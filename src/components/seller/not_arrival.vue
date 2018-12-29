@@ -85,7 +85,7 @@
               <p>
                 <span class="mr-5">數量：{{datas['Count']}}</span>
                 <span class="mr-5">購買人：{{datas['Name']}}</span>
-                <strong class="h3">總價：{{datas['Total']}}</strong>
+                <strong class="h3">總價：{{numberWithCommas(datas['Total'])}}</strong>
               </p>
             </div>
           </div>
@@ -112,6 +112,13 @@ export default {
     }
   },
   methods: {
+    numberWithCommas: function (x) {
+      if (x !== '') {
+        return x.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      } else {
+        return '0'
+      }
+    },
     NotArrivalSaveData: function () {
       this.saveData()
     },

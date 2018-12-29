@@ -94,27 +94,27 @@
         <h6 class="navbar-heading text-muted">買家面板</h6>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">
-              <i class="ni ni-tv-2 text-primary" v-on:click="to_buyer_first_pay"></i> 待匯款
+            <a class="nav-link" v-on:click="to_buyer_list('115')">
+              <i class="ni ni-tv-2 text-primary" ></i> 待匯款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/icons.html">
+            <a class="nav-link" v-on:click="to_buyer_list('118')">
               <i class="ni ni-planet text-blue"></i> 待付尾款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/maps.html">
+            <a class="nav-link" v-on:click="to_buyer_list('120')">
               <i class="ni ni-pin-3 text-orange"></i> 待出貨
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/profile.html">
+            <a class="nav-link" v-on:click="to_buyer_list('122')">
               <i class="ni ni-single-02 text-yellow"></i> 配送中
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../examples/tables.html">
+            <a class="nav-link active" v-on:click="to_buyer_list('123')">
               <i class="ni ni-bullet-list-67 text-red"></i> 完成
             </a>
           </li>
@@ -157,8 +157,9 @@
 export default {
   name: 'BuyerNav',
   methods: {
-    to_buyer_first_pay: function () {
-      this.$router.replace({name: 'seller_create_order'})
+    to_buyer_list: function (statusId) {
+      this.$router.replace({name: 'buyer_list', params: {info: statusId}})
+      this.$router.go()
     }
   }
 }

@@ -104,27 +104,27 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/maps.html">
+            <a class="nav-link" v-on:click="to_seller_list('118')">
               <i class="ni ni-pin-3 text-orange"></i> 未到貨
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/profile.html">
+            <a class="nav-link" v-on:click="to_seller_list('120')">
               <i class="ni ni-single-02 text-yellow"></i> 待收尾款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../examples/tables.html">
+            <a class="nav-link active" v-on:click="to_seller_list('121')">
               <i class="ni ni-bullet-list-67 text-red"></i> 待出貨
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/login.html">
+            <a class="nav-link" v-on:click="to_seller_list('122')">
               <i class="ni ni-key-25 text-info"></i> 配送中
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/register.html">
+            <a class="nav-link" v-on:click="to_seller_list('123')">
               <i class="ni ni-circle-08 text-pink"></i> 完成訂單
             </a>
           </li>
@@ -165,8 +165,9 @@
 export default {
   name: 'SellNav',
   methods: {
-    to_seller_list: function (staticId) {
-      this.$router.replace({name: 'seller_list', params: {info: staticId}})
+    to_seller_list: function (statusId) {
+      this.$router.replace({name: 'seller_list', params: {info: statusId}})
+      this.$router.go()
     },
     to_seller_create: function () {
       this.$router.replace({name: 'seller_create_order'})

@@ -91,7 +91,7 @@
                     </td>
                     <td>
                       <span class="badge badge-dot mr-4">
-                        <i class="bg-warning"></i> 運送中
+                        <i class="bg-warning"></i>{{item['StatusName']}}
                       </span>
                     </td>
                   </tr>
@@ -193,6 +193,12 @@ export default {
     this.statusId = this.$route.params.info
     this.getData()
     console.log(this.statusId)
+  },
+  watch: {
+    'statusId' () {
+      this.getData()
+      console.log(this.statusId)
+    }
   }
 }
 </script>

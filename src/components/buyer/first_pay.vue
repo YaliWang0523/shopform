@@ -74,7 +74,7 @@
                        <div class="form-group">
                         <strong class="mr-3">付款方式</strong>
                         <div class="custom-control custom-radio custom-control-inline" v-for="(item, index) of this.pay1">
-                          <input type="radio"  name="customRadioInline1" class="custom-control-input" :value="pay1code[index]" :id="pay1code[index]" v-model="select_pay1">
+                          <input type="radio"  name="customRadioInline1" class="custom-control-input" :value="item" :id="pay1code[index]" v-model="select_pay1">
                           <label class="custom-control-label" :for="pay1code[index]">{{item}}</label>
                         </div>
                       </div>

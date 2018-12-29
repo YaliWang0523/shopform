@@ -136,7 +136,7 @@
                 </tr>
                 <tr>
                   <td class="w-25"><strong class="mr-2">付款內容</strong>頭款</td>
-                  <td class="w-25"><strong class="mr-2">金額</strong>{{datas['Deposit']}}</td>
+                  <td class="w-25"><strong class="mr-2">金額</strong>{{numberWithCommas(datas['Deposit'])}}</td>
                   <td class="w-50"></td>
                 </tr>
               </table>
@@ -166,6 +166,13 @@ export default {
     }
   },
   methods: {
+    numberWithCommas: function (x) {
+      if (x !== '') {
+        return x.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      } else {
+        return '0'
+      }
+    },
     confirmFirstPay: function () {
       this.saveData()
     },
