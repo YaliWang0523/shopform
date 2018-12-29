@@ -215,7 +215,7 @@ export default {
     },
     onSetHandle: function (data) {
       this.datas = data
-      this.$router.replace({name: 'seller_list', params: {info: '120'}})
+      this.$router.replace({name: 'buyer_list', params: {info: '120'}})
       console.log(this.datas)
     },
     onSetError: function () {
@@ -230,10 +230,9 @@ export default {
       this.loading = true
       var params = new URLSearchParams()
       params.append('orderId', this.orderId)
-      params.append('statusId', '120')
       window.Vue.axios({
         method: 'post',
-        url: url + '/All/SetStatus',
+        url: url + 'Buyer/PayBalance',
         data: params
       })
       .then((response) => {

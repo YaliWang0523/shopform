@@ -246,7 +246,7 @@ export default {
     },
     onSetHandle: function (data) {
       this.datas = data
-      this.$router.replace({name: 'seller_list', params: {info: '115'}})
+      this.$router.replace({name: 'buyer_list', params: {info: '117'}})
       console.log(this.datas)
     },
     onSetError: function () {

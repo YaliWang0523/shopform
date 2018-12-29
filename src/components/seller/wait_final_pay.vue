@@ -106,7 +106,7 @@
                   <td><strong class="mr-2">後五碼</strong>{{datas['AccountNum']}}</td>
                 </tr>
                 <tr>
-                  <td><strong class="mr-2">付款內容</strong></td>
+                  <td><strong class="mr-2">付款內容</strong>{{datas['BalanceDetail']}}</td>
                   <td><strong class="mr-2">金額</strong>{{numberWithCommas(datas['TotalFee'])}}</td>
                   <td></td>
                 </tr>

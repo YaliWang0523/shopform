@@ -99,13 +99,28 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" v-on:click="to_buyer_list('117')">
+              <i class="ni ni-planet text-blue"></i> 待確認頭款
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" v-on:click="to_buyer_list('118')">
+              <i class="ni ni-planet text-blue"></i> 賣家購貨中
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" v-on:click="to_buyer_list('119')">
               <i class="ni ni-planet text-blue"></i> 待付尾款
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" v-on:click="to_buyer_list('120')">
-              <i class="ni ni-pin-3 text-orange"></i> 待出貨
+              <i class="ni ni-pin-3 text-orange"></i> 賣家確認尾款
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" v-on:click="to_buyer_list('121')">
+              <i class="ni ni-pin-3 text-orange"></i> 待賣家出貨
             </a>
           </li>
           <li class="nav-item">
