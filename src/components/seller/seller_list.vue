@@ -29,7 +29,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(item, index) of this.datas">
+                  <tr v-for="(item, index) of this.datas" v-on:click="toDetail(item['OrderId'])">
                     <th scope="row">
                       <div class="media align-items-center">
                         <div class="media-body">
@@ -95,6 +95,18 @@ export default {
     }
   },
   methods: {
+    toDetail: function (orderId) {
+      console.log(orderId)
+      if (this.statusId === '117') {
+        this.$router.replace({name: 'confirm_first_pay', params: {info: orderId}})
+      } else if (this.statusId === '118') {
+        this.$router.replace({name: 'not_arrival', params: {info: orderId}})
+      } else if (this.statusId === '120') {
+        this.$router.replace({name: 'wait_final_pay', params: {info: orderId}})
+      } else if (this.statusId === '121') {
+        this.$router.replace({name: 'seller_shipping', params: {info: orderId}})
+      }
+    },
     onHandle: function (data) {
       this.datas = data
       console.log(this.datas)
@@ -133,7 +145,6 @@ export default {
   created () {
     this.statusId = this.$route.params.info
     this.getData()
-    console.log(this.statusId)
   }
 }
 </script>

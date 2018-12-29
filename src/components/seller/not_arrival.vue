@@ -1,14 +1,13 @@
 <template >
   <div>
-  <!-- Sidenav 縮小會壞掉-->
-  <BuyerNev/>
-    <!-- Header -->
+    <SellerNav/>
+    <!-- Main content -->
     <div class="main-content">
     <!-- Top navbar -->
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
       <div class="container-fluid">
         <!-- Brand -->
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">商品列表</a>
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">未到貨</a>
         <!-- User -->
         <ul class="navbar-nav align-items-center d-none d-md-flex">
           <li class="nav-item dropdown">
@@ -52,6 +51,7 @@
         </ul>
       </div>
     </nav>
+    <!-- Header -->
     <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
       <div class="container-fluid">
         <div class="header-body">
@@ -61,100 +61,97 @@
     </div>
     <!-- Page content -->
     <div class="container-fluid mt--7">
-      <!-- Table -->
+      <!-- Card Row1 -->
       <div class="row">
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <h3 class="mb-0">商品列表</h3>
+              <h3 class="mb-0">商品內容<strong class=" float-right">訂單編號：{{datas['OrderId']}}</strong></h3>
             </div>
-            <div class="table-responsive">
-              <table class="table align-items-center table-flush">
-                <thead class="thead-light">
-                  <tr>
-                    <th scope="col">編號</th>
-                    <th scope="col">商品</th>
-                    <th scope="col">狀態</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="(item, index) of this.datas"  v-on:click="toDetail(item['OrderId'])" >
-                    <th scope="row">
-                      <div class="media align-items-center">
-                        <div class="media-body">
-                          <span class="mb-0 text-sm">{{item['OrderId']}}</span>
-                        </div>
-                      </div>
-                    </th>
-                    <td>
-                      <a>{{item['OrderName']}}</a>
-                    </td>
-                    <td>
-                      <span class="badge badge-dot mr-4">
-                        <i class="bg-warning"></i> 運送中
-                      </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <!-- Card Body -->
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <img class="rounded mx-auto d-block" width="100%" alt="Image placeholder" src="/static/assets/img/sample.jpg">
+                </div>
+                <div class="col-md-9">
+                  <h2 class="card-title ">{{datas['OrderName']}}</h2>
+                  <p>{{datas['OrderDesc']}}</p>
+                </div>
+              </div>
             </div>
-            <div class="card-footer py-4">
-              <nav aria-label="...">
-                <ul class="pagination justify-content-end mb-0">
-                  <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1">
-                      <i class="fas fa-angle-left"></i>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                  </li>
-                  <li class="page-item active">
-                    <a class="page-link" href="#">1</a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">
-                      <i class="fas fa-angle-right"></i>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+            <!-- /Card Body -->
+            <div class="card-footer py-4 text-right">
+              <p>
+                <span class="mr-5">數量：{{datas['Count']}}</span>
+                <span class="mr-5">購買人：{{datas['Name']}}</span>
+                <strong class="h3">總價：{{datas['Total']}}</strong>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- /Card Row1 -->
+    <button href="#" class="btn btn-primary btn-lg my-3" role="button" aria-pressed="true" v-on:click="NotArrivalSaveData()">確認到貨</button>
+    <!-- /Card Row3 -->
   </div>
- </div>
+</div>
+</div>
 </template>
 <script>
-import BuyerNev from '@/components/buyer/buyer_nav'
+import SellerNav from '@/components/seller/seller_nav'
 import {ApiHandle} from '@/Api/ApiHandle.js'
 import {CommonFunction} from '@/common/CommonFunction.js'
 export default {
-  name: 'BuyerList',
-  components: { BuyerNev },
+  components: { SellerNav },
+  name: 'NotArrival',
   data () {
     return {
-      statusId: '',
-      datas: []
+      datas: [],
+      orderId: ''
     }
   },
   methods: {
-    toDetail: function (orderId) {
-      console.log(orderId)
-      if (this.statusId === '115') {
-        this.$router.replace({name: 'first_pay', params: {info: orderId}})
-      } else if (this.statusId === '119') {
-        this.$router.replace({name: 'final_pay', params: {info: orderId}})
-      }
+    NotArrivalSaveData: function () {
+      this.saveData()
+    },
+    onSaveHandle: function (data) {
+      this.datas = data[0]
+      this.$router.replace({name: 'seller_list', params: {info: '119'}})
+    },
+    onSaveError: function () {
+      this.datas = []
+    },
+    onTokenSaveError: function () {
+      this.datas = []
+    },
+    saveData: function () {
+      let commonFunction = new CommonFunction()
+      let url = commonFunction.GetApiUrl()
+      this.loading = true
+      var params = new URLSearchParams()
+      params.append('orderId', this.orderId)
+      params.append('statusId', '119')
+      window.Vue.axios({
+        method: 'post',
+        url: url + 'All/SetStatus',
+        data: params
+      })
+      .then((response) => {
+      /* eslint-disable no-new */
+        new ApiHandle(this.onSaveHandle, this.onSaveError, this.onTokenSaveError, response.data, true, this)
+        this.loading = false
+      })
+      .catch(e => {
+        this.errors.push(e)
+        this.loading = false
+        // Error404
+        let commonFunction = new CommonFunction()
+        commonFunction.ToError404(this)
+      })
     },
     onHandle: function (data) {
-      this.datas = data
-      console.log(this.datas)
+      this.datas = data[0]
     },
     onError: function () {
       this.datas = []
@@ -167,10 +164,10 @@ export default {
       let url = commonFunction.GetApiUrl()
       this.loading = true
       var params = new URLSearchParams()
-      params.append('statusId', this.statusId)
+      params.append('orderId', this.orderId)
       window.Vue.axios({
         method: 'post',
-        url: url + 'Buyer/GetList',
+        url: url + 'All/GetDetail',
         data: params
       })
       .then((response) => {
@@ -188,9 +185,8 @@ export default {
     }
   },
   created () {
-    this.statusId = this.$route.params.info
+    this.orderId = this.$route.params.info
     this.getData()
-    console.log(this.statusId)
   }
 }
 </script>

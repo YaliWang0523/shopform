@@ -99,7 +99,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../examples/icons.html">
+            <a class="nav-link" v-on:click="to_seller_list('117')">
               <i class="ni ni-planet text-blue"></i> 待匯款
             </a>
           </li>
@@ -165,6 +165,9 @@
 export default {
   name: 'SellNav',
   methods: {
+    to_seller_list: function (staticId) {
+      this.$router.replace({name: 'seller_list', params: {info: staticId}})
+    },
     to_seller_create: function () {
       this.$router.replace({name: 'seller_create_order'})
     }

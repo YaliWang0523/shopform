@@ -10,6 +10,11 @@ const BuyerList = () => import('@/components/buyer/buyer_list')
 const FirstPay = () => import('@/components/buyer/first_pay')
 const SellerList = () => import('@/components/seller/seller_list')
 const SellerCreateOrder = () => import('@/components/seller/seller_create_order')
+const ConfirmFirstPay = () => import('@/components/seller/confirm_first_pay')
+const NotArrival = () => import('@/components/seller/not_arrival')
+const FinalPay = () => import('@/components/buyer/final_pay')
+const WaitFinalPay = () => import('@/components/seller/wait_final_pay')
+const SellerShipping = () => import('@/components/seller/seller_shipping')
 const Home = () => import('@/components/Home')
 
 Vue.use(Router)
@@ -26,6 +31,11 @@ const router = new Router({
     {path: '/seller_list/:info', name: 'seller_list', component: SellerList},
     {path: '/seller_list/:info', name: 'seller_list', component: SellerList},
     {path: '/seller_create_order', name: 'seller_create_order', component: SellerCreateOrder},
+    {path: '/confirm_first_pay/:info', name: 'confirm_first_pay', component: ConfirmFirstPay},
+    {path: '/not_arrival/:info', name: 'not_arrival', component: NotArrival},
+    {path: '/final_pay/:info', name: 'final_pay', component: FinalPay},
+    {path: '/wait_final_pay/:info', name: 'wait_final_pay', component: WaitFinalPay},
+    {path: '/seller_shipping/:info', name: 'seller_shipping', component: SellerShipping},
     { path: '*', component: Error404 }
   ]}
 )
