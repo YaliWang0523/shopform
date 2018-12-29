@@ -15,6 +15,7 @@ const NotArrival = () => import('@/components/seller/not_arrival')
 const FinalPay = () => import('@/components/buyer/final_pay')
 const WaitFinalPay = () => import('@/components/seller/wait_final_pay')
 const SellerShipping = () => import('@/components/seller/seller_shipping')
+const BuyerShipping = () => import('@/components/buyer/buyer_shipping')
 const Home = () => import('@/components/Home')
 
 Vue.use(Router)
@@ -36,6 +37,7 @@ const router = new Router({
     {path: '/final_pay/:info', name: 'final_pay', component: FinalPay},
     {path: '/wait_final_pay/:info', name: 'wait_final_pay', component: WaitFinalPay},
     {path: '/seller_shipping/:info', name: 'seller_shipping', component: SellerShipping},
+    {path: '/buyer_shipping/:info', name: 'buyer_shipping', component: BuyerShipping},
     { path: '*', component: Error404 }
   ]}
 )
