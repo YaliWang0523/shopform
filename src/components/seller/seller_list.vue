@@ -105,6 +105,8 @@ export default {
         this.$router.replace({name: 'wait_final_pay', params: {info: orderId}})
       } else if (this.statusId === '121') {
         this.$router.replace({name: 'seller_shipping', params: {info: orderId}})
+      } else if (this.statusId === '123') {
+        this.$router.replace({name: 'seller_close_order', params: {info: orderId}})
       }
     },
     onHandle: function (data) {

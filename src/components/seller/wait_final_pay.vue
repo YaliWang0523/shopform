@@ -71,7 +71,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-3">
-                  <img class="rounded mx-auto d-block" width="100%" alt="Image placeholder" src="/static/assets/img/sample.jpg">
+                  <img class="rounded mx-auto d-block" width="100%" alt="Image placeholder" src="static/assets/img/sample.jpg">
                 </div>
                 <div class="col-md-9">
                   <h2 class="card-title ">{{datas['OrderName']}}</h2>

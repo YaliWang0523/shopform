@@ -16,6 +16,8 @@ const FinalPay = () => import('@/components/buyer/final_pay')
 const WaitFinalPay = () => import('@/components/seller/wait_final_pay')
 const SellerShipping = () => import('@/components/seller/seller_shipping')
 const BuyerShipping = () => import('@/components/buyer/buyer_shipping')
+const BuyerCloseOrder = () => import('@/components/buyer/buyer_close_order')
+const SellerCloseOrder = () => import('@/components/seller/seller_close_order')
 const Home = () => import('@/components/Home')
 
 Vue.use(Router)
@@ -38,6 +40,8 @@ const router = new Router({
     {path: '/wait_final_pay/:info', name: 'wait_final_pay', component: WaitFinalPay},
     {path: '/seller_shipping/:info', name: 'seller_shipping', component: SellerShipping},
     {path: '/buyer_shipping/:info', name: 'buyer_shipping', component: BuyerShipping},
+    {path: '/buyer_close_order/:info', name: 'buyer_close_order', component: BuyerCloseOrder},
+    {path: '/seller_close_order/:info', name: 'seller_close_order', component: SellerCloseOrder},
     { path: '*', component: Error404 }
   ]}
 )

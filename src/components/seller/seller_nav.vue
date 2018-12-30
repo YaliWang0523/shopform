@@ -100,7 +100,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" v-on:click="to_seller_list('115')">
-              <i class="ni ni-planet text-blue"></i> 等待買家付頭款
+              <i class="ni ni-planet text-blue"></i> 等待買家付頭款(NEW)
             </a>
           </li>
           <li class="nav-item">
@@ -115,7 +115,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" v-on:click="to_seller_list('119')">
-              <i class="ni ni-pin-3 text-orange"></i> 買家付頭款
+              <i class="ni ni-pin-3 text-orange"></i> 等待買家付尾款(NEW)
             </a>
           </li>
           <li class="nav-item">

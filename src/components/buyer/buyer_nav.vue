@@ -100,12 +100,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" v-on:click="to_buyer_list('117')">
-              <i class="ni ni-planet text-blue"></i> 待確認頭款
+              <i class="ni ni-planet text-blue"></i> 待確認頭款(NEW)
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" v-on:click="to_buyer_list('118')">
-              <i class="ni ni-planet text-blue"></i> 賣家購貨中
+              <i class="ni ni-planet text-blue"></i> 賣家購貨中(NEW)
             </a>
           </li>
           <li class="nav-item">
@@ -120,7 +120,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" v-on:click="to_buyer_list('121')">
-              <i class="ni ni-pin-3 text-orange"></i> 待賣家出貨
+              <i class="ni ni-pin-3 text-orange"></i> 待賣家出貨(NEW)
             </a>
           </li>
           <li class="nav-item">

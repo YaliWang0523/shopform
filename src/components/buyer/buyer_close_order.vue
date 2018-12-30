@@ -6,14 +6,14 @@
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
       <div class="container-fluid">
         <!-- Brand -->
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">配送中</a>
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">完成訂單</a>
         <!-- User -->
         <ul class="navbar-nav align-items-center d-none d-md-flex">
           <li class="nav-item dropdown">
             <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="/static/assets/img/theme/team-4-800x800.jpg">
+                  <img alt="Image placeholder" src="static/assets/img/theme/team-4-800x800.jpg">
                 </span>
                 <div class="media-body ml-2 d-none d-lg-block">
                   <span class="mb-0 text-sm  font-weight-bold">薇薇安鄭</span>
@@ -61,27 +61,6 @@
     <!-- Page content -->
     <div class="container-fluid mt--7">
       <!-- Card Row1 -->
-      <div class="row my-3">
-        <div class="col">
-          <div class="card shadow">
-            <div class="card-header border-0">
-              <h3 class="mb-0">物流資訊</h3>
-            </div>
-            <div class="card-body">
-              <table class="table align-items-center table-flush">
-                <tr>
-                  <td class="w-25"><strong class="mr-2">物流公司</strong>{{datas['CargoCompany']}}</td>
-                  <td><strong class="mr-2">物流單號</strong>{{datas['CargoId']}}</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-          <!-- /card -->
-        </div>
-        <!-- /col -->
-      </div>
-      <!-- /Card Row1 -->
-      <!-- Card Row2 -->
       <div class="row">
         <div class="col">
           <div class="card shadow">
@@ -110,19 +89,102 @@
           </div>
         </div>
       </div>
+      <!-- /Card Row1 -->
+      <!-- Card Row2 -->
+      <div class="row my-3">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mb-0">價格</h3>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                  <thead class="thead-light">
+                    <tr>
+                      <th scope="col" class="w-25">品項</th>
+                      <th scope="col">金額</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">
+                        總價
+                      </th>
+                      <td>
+                        {{numberWithCommas(datas['Total'])}}
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        訂金
+                      </th>
+                      <td>
+                        -{{numberWithCommas(datas['Deposit'])}}
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        尾款
+                      </th>
+                      <td>
+                        {{numberWithCommas(datas['Balance'])}}
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        運費
+                      </th>
+                      <td>
+                        {{numberWithCommas(datas['Fee'])}}
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th scope="col">付款金額</th>
+                      <th scope="col">{{numberWithCommas(datas['TotalFee'])}}</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /col -->
+      </div>
       <!-- /Card Row2 -->
-    <button v-on:click="saveData()" class="btn btn-primary btn-lg my-3" role="button" aria-pressed="true">確認收貨</button>
+      <!-- Card Row3 -->
+      <div class="row mb-3">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mb-0">物流資訊</h3>
+            </div>
+            <div class="card-body">
+              <table class="table align-items-center table-flush">
+                <tr>
+                  <td class="w-25"><strong class="mr-2">物流公司</strong>{{datas['CargoCompany']}}</td>
+                  <td><strong class="mr-2">物流單號</strong>{{datas['CargoId']}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- /card -->
+        </div>
+        <!-- /col -->
+      </div>
+      <!-- /Card Row3 -->
   </div>
   </div>
 </div>
-
 </template>
 <script>
 import BuyerNev from '@/components/buyer/buyer_nav'
 import {ApiHandle} from '@/Api/ApiHandle.js'
 import {CommonFunction} from '@/common/CommonFunction.js'
 export default {
-  name: 'BuyerShipping',
+  name: 'buyer_close_order',
   components: { BuyerNev },
   data () {
     return {
@@ -131,6 +193,13 @@ export default {
     }
   },
   methods: {
+    numberWithCommas: function (x) {
+      if (x !== '') {
+        return x.replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      } else {
+        return '0'
+      }
+    },
     onHandle: function (data) {
       this.datas = data[0]
     },
@@ -163,45 +232,6 @@ export default {
         let commonFunction = new CommonFunction()
         commonFunction.ToError404(this)
       })
-    },
-    onSetHandle: function (data) {
-      this.datas = data
-      this.$router.replace({name: 'buyer_list', params: {info: '123'}})
-      console.log(this.datas)
-    },
-    onSetError: function () {
-      this.datas = []
-    },
-    onTokenSetError: function () {
-      this.datas = []
-    },
-    setData: function () {
-      let commonFunction = new CommonFunction()
-      let url = commonFunction.GetApiUrl()
-      this.loading = true
-      var params = new URLSearchParams()
-      params.append('orderId', this.orderId)
-      params.append('statusId', '123')
-      window.Vue.axios({
-        method: 'post',
-        url: url + 'All/SetStatus',
-        data: params
-      })
-      .then((response) => {
-      /* eslint-disable no-new */
-        new ApiHandle(this.onSetHandle, this.onSetError, this.onTokenSetError, response.data, true, this)
-        this.loading = false
-      })
-      .catch(e => {
-        this.errors.push(e)
-        this.loading = false
-        // Error404
-        let commonFunction = new CommonFunction()
-        commonFunction.ToError404(this)
-      })
-    },
-    saveData: function () {
-      this.setData()
     }
   },
   created () {
