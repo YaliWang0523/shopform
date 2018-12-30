@@ -164,8 +164,8 @@
             <div class="card-body">
               <table class="table align-items-center table-flush">
                 <tr>
-                  <td class="w-25"><strong class="mr-2">物流公司</strong>{{datas['Total']}}</td>
-                  <td><strong class="mr-2">物流單號</strong>{{datas['Total']}}</td>
+                  <td class="w-25"><strong class="mr-2">物流公司</strong>{{datas['CargoCompany']}}</td>
+                  <td><strong class="mr-2">物流單號</strong>{{datas['CargoId']}}</td>
                 </tr>
               </table>
             </div>
