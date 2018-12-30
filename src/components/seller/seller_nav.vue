@@ -94,48 +94,48 @@
         <h6 class="navbar-heading text-muted">賣家面板</h6>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_create()">
-              <i class="ni ni-tv-2 text-primary"></i> 建立訂單
+            <a class="nav-link" v-on:click="to_seller_create()" style="cursor:pointer">
+              <i class="fas fa-pen-nib text-primary"></i> 建立訂單
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('115')">
-              <i class="ni ni-planet text-blue"></i> 等待買家付頭款(NEW)
+            <a class="nav-link" v-on:click="to_seller_list('115')" style="cursor:pointer">
+              <i class="fas fa-dollar-sign text-primary"></i> 待收頭款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('117')">
-              <i class="ni ni-planet text-blue"></i> 確認頭款
+            <a class="nav-link" v-on:click="to_seller_list('117')" style="cursor:pointer">
+              <i class="fas fa-user-check text-primary"></i> 確認頭款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('118')">
-              <i class="ni ni-pin-3 text-orange"></i> 未到貨
+            <a class="nav-link" v-on:click="to_seller_list('118')" style="cursor:pointer">
+              <i class="fas fa-plane text-primary"></i> 未到貨
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('119')">
-              <i class="ni ni-pin-3 text-orange"></i> 等待買家付尾款(NEW)
+            <a class="nav-link" v-on:click="to_seller_list('119')" style="cursor:pointer">
+              <i class="fas fa-dollar-sign text-primary"></i> 待收尾款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('120')">
-              <i class="ni ni-single-02 text-yellow"></i> 待收尾款
+            <a class="nav-link" v-on:click="to_seller_list('120')" style="cursor:pointer">
+              <i class="fas fa-user-check text-primary"></i> 確認尾款
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" v-on:click="to_seller_list('121')">
-              <i class="ni ni-bullet-list-67 text-red"></i> 待出貨
+            <a class="nav-link active" v-on:click="to_seller_list('121')" style="cursor:pointer">
+              <i class="fas fa-archive text-primary"></i> 待出貨
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('122')">
-              <i class="ni ni-key-25 text-info"></i> 配送中
+            <a class="nav-link" v-on:click="to_seller_list('122')" style="cursor:pointer">
+              <i class="fas fa-truck text-primary"></i> 配送中
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" v-on:click="to_seller_list('123')">
-              <i class="ni ni-circle-08 text-pink"></i> 完成訂單
+            <a class="nav-link" v-on:click="to_seller_list('123')" style="cursor:pointer">
+              <i class="fas fa-check-double text-primary"></i> 完成訂單
             </a>
           </li>
         </ul>
@@ -147,22 +147,22 @@
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
             <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
-              <i class="ni ni-spaceship"></i> 個人檔案
+              <i class="fas fa-user-alt"></i> 個人檔案
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
-              <i class="ni ni-palette"></i> 物流設定
+              <i class="fas fa-shipping-fast"></i> 物流設定
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
-              <i class="ni ni-ui-04"></i> 金流設定
+              <i class="far fa-credit-card"></i> 金流設定
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
-              <i class="ni ni-ui-04"></i> 平台服務費
+              <i class="fas fa-calculator"></i> 平台服務費
             </a>
           </li>
         </ul>
