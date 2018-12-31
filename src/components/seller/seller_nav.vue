@@ -124,7 +124,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" v-on:click="to_seller_list('121')" style="cursor:pointer">
+            <a class="nav-link" v-on:click="to_seller_list('121')" style="cursor:pointer">
               <i class="fas fa-archive text-primary"></i> 待出貨
             </a>
           </li>
