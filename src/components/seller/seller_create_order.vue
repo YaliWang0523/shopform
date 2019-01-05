@@ -108,16 +108,17 @@
                     </div>
                   </div>
                   <div class="col-md-3">
-                    <div class="form-group">
-                      <label for="inputPhoto">上傳照片</label>
-                      <input type="tel" class="form-control" id="inputPhoto" placeholder="選擇照片">
+                   <div class="form-group">
+                      <label for="inputSum">圖片</label>
+                      <select class="form-control" id="inputSum" >
+                        <option value="">請選擇</option>
+                        <option value="1">電腦包</option>
+                        <option value="2">輕便購物包</option>
+                        <option value="3">擦擦筆 紅/黑</option>
+                        <option value="4">飲料袋 /杯套</option>
+                      </select>
                     </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="form-group">
-                      <a href="#" class="btn btn-primary btn-lg mt-4" role="button" aria-pressed="true">上傳</a>
-                    </div>
-                  </div>
+                  </div> 
                 </div>
               </form>
             </div>
