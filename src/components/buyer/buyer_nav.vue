@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Brand -->
-      <a class="navbar-brand pt-0" href="../index.html">
+      <a class="navbar-brand p-0" href="../index.html">
         <img src="/static/assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
       </a>
       <!-- User -->
@@ -89,7 +89,7 @@
         </form>
         <!-- 賣家 Navigation -->
         <!-- Divider -->
-        <hr class="my-3">
+        <hr class="mb-3 mt-0">
         <!-- Heading -->
         <h6 class="navbar-heading text-muted">買家面板</h6>
         <ul class="navbar-nav">

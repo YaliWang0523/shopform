@@ -89,7 +89,7 @@
         </form>
         <!-- 賣家 Navigation -->
         <!-- Divider -->
-        <hr class="my-3">
+        <hr class="mb-3 mt-0">
         <!-- Heading -->
         <h6 class="navbar-heading text-muted">賣家面板</h6>
         <ul class="navbar-nav">

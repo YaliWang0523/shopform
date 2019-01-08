@@ -29,7 +29,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(item, index) of this.datas" v-on:click="toDetail(item['OrderId'])">
+                  <tr v-for="(item, index) of this.datas" v-on:click="toDetail(item['OrderId'])" style="cursor:pointer">
                     <th scope="row">
                       <div class="media align-items-center">
                         <div class="media-body">
